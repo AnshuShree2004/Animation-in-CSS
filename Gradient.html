@@ -1,0 +1,45 @@
+Here is the code in which 
+gradient property of CSS used :
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Document</title>
+  <style>
+    .one{
+      height: 100px;
+      width: 100px;
+      background-image: linear-gradient( to right,red,yellow);
+    }
+    .two{
+      height: 100px;
+      width: 200px;
+      background-image: radial-gradient(red,yellow);
+    }
+    .three{
+      height:100px;
+      width: 100px;
+      background-image: repeating-radial-gradient(red,blue);
+    }
+    div{
+      height: 200px;
+      width: 200px;
+      background-image: conic-gradient(red,blue);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="one"></div>
+  <br>
+  <div class="two"></div>
+  <br>
+<div class="three"></div>
+<br>
+<div></div>
+</body>
+
+</html>
